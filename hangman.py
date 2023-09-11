@@ -1,7 +1,7 @@
 import random
 from words import words
 
-lives = 6
+lives = 7
 word_chosen = random.choice(words)
 display = ['_'] * len(word_chosen)  
 guessed_list=' '
